@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   app.enableCors({
-    origin: 'https://an-vadim-an-mini-app-clicker-frontend-ab25.twc1.net/',
+    origin: 'https://random-number-frontend-7u9q.onrender.com/',
     methods: 'GET,POST,PUT,DELETE',
     allowedHeaders: 'Content-Type,Authorization',
   });
